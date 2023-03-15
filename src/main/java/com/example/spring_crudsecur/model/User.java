@@ -2,6 +2,7 @@ package com.example.spring_crudsecur.model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.internal.util.collections.ConcurrentReferenceHashMap;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
@@ -58,8 +59,15 @@ public class User implements UserDetails {
 
     public String toStringAllRoles() {
         String result = "";
+
         for (Role role : roles) {
-            result += role.getShortName() + " ";
+            if (role.getId() == 1) {
+                String res = role.getShortName() + " " + result;
+                result = res;
+            }
+            if (role.getId() == 2) {
+                result += role.getShortName() + " ";
+            }
         }
         return result;
     }

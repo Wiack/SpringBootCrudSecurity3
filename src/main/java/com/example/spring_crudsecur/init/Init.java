@@ -33,6 +33,7 @@ public class Init implements CommandLineRunner {
 
 
         User admin = userService.getByEmail("admin@gmail.com");
+
         if (admin == null) {
             admin = new User(
                     "adminName",
