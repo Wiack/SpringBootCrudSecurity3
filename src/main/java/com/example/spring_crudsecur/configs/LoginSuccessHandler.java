@@ -1,4 +1,4 @@
-package com.example.spring_crudsecur1.configs;
+package com.example.spring_crudsecur.configs;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.authority.AuthorityUtils;

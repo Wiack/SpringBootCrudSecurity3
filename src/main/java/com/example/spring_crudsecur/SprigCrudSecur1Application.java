@@ -1,4 +1,4 @@
-package com.example.spring_crudsecur1;
+package com.example.spring_crudsecur;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

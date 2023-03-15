@@ -1,9 +1,9 @@
-package com.example.spring_crudsecur1;
+package com.example.spring_crudsecur;
 
-import com.example.spring_crudsecur1.model.Role;
-import com.example.spring_crudsecur1.model.User;
-import com.example.spring_crudsecur1.service.RoleService;
-import com.example.spring_crudsecur1.service.UserService;
+import com.example.spring_crudsecur.model.Role;
+import com.example.spring_crudsecur.model.User;
+import com.example.spring_crudsecur.service.RoleService;
+import com.example.spring_crudsecur.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

@@ -1,8 +1,8 @@
-package com.example.spring_crudsecur1.service;
+package com.example.spring_crudsecur.service;
 
-import com.example.spring_crudsecur1.model.Role;
-import com.example.spring_crudsecur1.model.User;
-import com.example.spring_crudsecur1.repository.UserRepository;
+import com.example.spring_crudsecur.model.Role;
+import com.example.spring_crudsecur.model.User;
+import com.example.spring_crudsecur.repository.UserRepository;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

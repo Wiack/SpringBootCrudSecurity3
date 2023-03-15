@@ -1,6 +1,6 @@
-package com.example.spring_crudsecur1.service;
+package com.example.spring_crudsecur.service;
 
-import com.example.spring_crudsecur1.model.Role;
+import com.example.spring_crudsecur.model.Role;
 
 import java.util.List;
 

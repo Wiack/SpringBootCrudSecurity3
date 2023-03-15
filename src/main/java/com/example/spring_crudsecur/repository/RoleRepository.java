@@ -1,6 +1,6 @@
-package com.example.spring_crudsecur1.repository;
+package com.example.spring_crudsecur.repository;
 
-import com.example.spring_crudsecur1.model.Role;
+import com.example.spring_crudsecur.model.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

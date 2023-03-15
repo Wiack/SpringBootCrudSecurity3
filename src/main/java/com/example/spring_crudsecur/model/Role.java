@@ -1,4 +1,4 @@
-package com.example.spring_crudsecur1.model;
+package com.example.spring_crudsecur.model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

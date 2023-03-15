@@ -1,7 +1,7 @@
-package com.example.spring_crudsecur1.controller;
+package com.example.spring_crudsecur.controller;
 
-import com.example.spring_crudsecur1.service.RoleService;
-import com.example.spring_crudsecur1.service.UserService;
+import com.example.spring_crudsecur.service.RoleService;
+import com.example.spring_crudsecur.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
