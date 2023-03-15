@@ -4,10 +4,11 @@ import com.example.spring_crudsecur.model.Role;
 import com.example.spring_crudsecur.repository.RoleRepository;
 import org.springframework.stereotype.Service;
 
-import javax.transaction.Transactional;
+import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 @Service
+@Transactional(readOnly = true)
 public class RoleServiceImpl implements RoleService {
 
     private final RoleRepository roleRepository;
