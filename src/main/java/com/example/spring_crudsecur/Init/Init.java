@@ -1,4 +1,4 @@
-package com.example.spring_crudsecur;
+package com.example.spring_crudsecur.Init;
 
 import com.example.spring_crudsecur.model.Role;
 import com.example.spring_crudsecur.model.User;
