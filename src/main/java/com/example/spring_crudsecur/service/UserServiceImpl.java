@@ -36,6 +36,23 @@ public class UserServiceImpl implements UserService {
     @Override
     @Transactional
     public void addUser(User user) {
+//        Role USR = roleService.findByName("ROLE_USER");
+//        Role ADM = roleService.findByName("ROLE_ADMIN");
+//
+//
+//        if (userRepository.findByEmail(user.getEmail()) == null) {
+//
+//            Set<Role> roleForSet = new HashSet<>();
+//            roleForSet.add(USR);
+//            if (user.getRoles().contains(ADM)) {
+//                roleForSet.add(ADM);
+//            }
+//            ;
+//            user.setRoles(roleForSet);
+//
+//            user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
+//            userRepository.save(user);
+//        }
 
         if (userRepository.findByEmail(user.getEmail()) == null) {
             user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
